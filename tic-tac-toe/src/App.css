@@ -1,0 +1,21 @@
+.square{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    text-align: center;
+    vertical-align: center;
+    line-height: 90px;
+}
+
+#grid {
+    display: flex;
+    width: 290px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
