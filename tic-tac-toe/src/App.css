@@ -1,10 +1,15 @@
+
 .square{
     height: 90px;
     width: 90px;
-    border: 2px solid;
+
     text-align: center;
     vertical-align: center;
     line-height: 90px;
+    font-family: 'Acme';
+    font-size: 70px;
+    color: gray;
+
 }
 
 #grid {
@@ -12,10 +17,26 @@
     width: 290px;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 #flex {
     display: flex;
+    height: 100vh;
     align-items: center;
+
     flex-direction: column;
+}
+
+.button{
+    border: none;
+    color: white;
+    background-color: gray;
+    font-family: 'Acme';
+}
+
+#h1{
+    color:gray;
+    text-align: center;
+    font-family: 'Acme'
 }
